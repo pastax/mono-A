@@ -11,8 +11,24 @@ public class Main extends JFrame {
 		super.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 		
 		// TODO Inserire la size in accordo con il wireframe
-		super.setSize(__TODO__,__TODO__);
+		super.setSize(900,300);
+		StringBuilder sb = new StringBuilder();
+		sb.append("<html>");
+		sb.append("<h1>almanacco astronomico</h1>");
+		sb.append("<div style='display:table'>");
+		sb.append("<div style='display:table-row'>");
 		
+		sb.append("<div style='display:table-cell'>");
+		sb.append("Name");
+		sb.append("</div>");
+		sb.append("<div style='display:table-cell'>");
+		sb.append("Description");
+		sb.append("</div>");
+		
+		sb.append("</div>");
+		
+		sb.append("</div>");
+		sb.append("</html>");
 		// TODO Usare StringBuilder per costruire la stringa HTML
 		
 		// TODO Creare la stringa HTML per il wireframe
